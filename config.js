@@ -1,7 +1,8 @@
 module.exports = {
     bot: {
-        tokens: [
-          "YOUR_BOT_TOKEN_HERE",              // Main bot token - Replace with your actual token
+        tokens: [Token
+
+          "MTQ3ODUyNzE5NTIzMTI5MzY0Mg.GxlZ_T.47pYEnC8ALLUhrgbst3Arl8NiBQxomny0QcSM0",              // Main bot token - Replace with your actual token
         //  "YOUR_SECOND_BOT_TOKEN_HERE",      // 2 bot token - Uncomment and replace to use
         //  "YOUR_THIRD_BOT_TOKEN_HERE",       // 3 bot token - Uncomment and replace to use
         //  "YOUR_FOURTH_BOT_TOKEN_HERE",      // 4 bot token - Uncomment and replace to use
@@ -17,9 +18,9 @@ module.exports = {
         }
     },
     server: {
-        guildId: 'ID',         // ايدي السيرفر
-        broadcastRoleId: 'ID', // ايدي الرول اللي يستخدم عليها البوت
-        reportChannelId: 'ID' // ايدي الروم اللي يرسل فيه البوت التقارير
+        guildId: '1455218406658801677',         // ايدي السيرفر
+        broadcastRoleId: '1457781062779277507', // ايدي الرول اللي يستخدم عليها البوت
+        reportChannelId: '1458348254591844482' // ايدي الروم اللي يرسل فيه البوت التقارير
     },
     broadcast: {
         cooldownTime: 1000, // لا تلعب فيها
@@ -34,4 +35,5 @@ module.exports = {
         error: '#ED4245',      // Red (used for errors)
         neutral: '#5D5D5D'     // Gray (used for neutral messages)
     }
+
 };
